@@ -1,16 +1,46 @@
-# React + Vite
+echo "# Dragon Ball Ki Battle
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a simple React app that uses the [Dragon Ball API](https://www.dragonball-api.com/api) to let users:
 
-Currently, two official plugins are available:
+- Browse characters
+- Filter them by planet
+- Pick two characters to fight
+- Simulate battles based on their Ki values
+- Watch results with animations and confetti
+- See battle history beautifully animated
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Getting Started
 
-## React Compiler
+1. Clone this repository:
+   \`\`\`bash
+   git clone https://github.com/Lindo13/db-battle.git
+   \`\`\`
 
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+2. Install dependencies:
+   \`\`\`bash
+   npm install
+   \`\`\`
 
-## Expanding the ESLint configuration
+3. Run the development server:
+   \`\`\`bash
+   npm run dev
+   \`\`\`
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Then open your browser at the URL shown (usually http://localhost:5173).
+
+## 🌍 Features
+- Planet filter to view characters by origin
+- Confetti celebration for the winner
+- Animated battle history
+- Spanish → English translation for character descriptions
+
+## 🛠️ Tech Stack
+- React + Vite
+- framer-motion (animations)
+- react-confetti (celebration effects)
+- GitHub Pages (optional for hosting)
+
+---
+
+Enjoy powering up with **Dragon Ball Ki Battle** ⚡
+" > README.md
