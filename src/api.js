@@ -1,4 +1,4 @@
-const BASE = '/api';
+const BASE = 'https://dragon-ball-api.vercel.app/api';
 
 function unwrap(data) {
   if (Array.isArray(data)) return data;
